@@ -81,7 +81,7 @@ export default function Navbar() {
           <div className="hidden min-w-max flex-1 shrink-0 items-center justify-end gap-2 md:flex">
             <GradientButton
               target="_blank"
-              href={"https://dev.near.org/nearcatalog.near/widget/submit"}
+              href={"https://submit.nearcatalog.org"}
               className="btn-submit-project"
             >
               Submit project
@@ -140,7 +140,7 @@ export default function Navbar() {
             key="submit"
             onClick={() => setIsOpen(false)}
             target="_blank"
-            href={"https://dev.near.org/nearcatalog.near/widget/submit"}
+            href={"https://submit.nearcatalog.org"}
             className="btn-submit-project"
           >
             Submit Project
