@@ -19,8 +19,8 @@ const routes: Route[] = [
     href: "/trending",
   },
   {
-    name: '<image src="https://indexer.nearcatalog.org/wp-content/uploads/2024/12/near-icon.webp" alt="NEAR Chain Abstraction" class="w-6 h-6 inline-block mr-2"> Chain Abstraction ',
-    href: "/category/chain-abstraction",
+    name: '<image src="https://indexer.nearcatalog.org/wp-content/uploads/2024/12/near-icon.webp" alt="NEAR Intents" class="w-6 h-6 inline-block mr-2"> NEAR Intents ',
+    href: "/category/near-intents",
   },
   // {
   //   name: '<img src="https://indexer.nearcatalog.org/wp-content/uploads/2024/12/aurora-icon.webp" alt="Aurora Virtual Chain" class="inline-block w-6 h-6 mr-2" /> Virtual Chain',
