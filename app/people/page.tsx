@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { Person } from "@/lib/types";
 import { fetchPeopleData } from "@/lib/near-catalog";
 
-export const revalidate = 3600*4; // 4 hours
+export const revalidate = 14400; // 4 hours
 
 export const metadata: Metadata = {
   title: "People on NEAR Directory",

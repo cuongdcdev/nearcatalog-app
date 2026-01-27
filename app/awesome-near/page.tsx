@@ -2,7 +2,7 @@ import { getAwesomeNearData } from '@/lib/awesome-near';
 import AwesomeNearList from './_components/awesome-near-list';
 import SectionHeading from '@/components/ui/section-heading';
 
-export const revalidate = 3600*4; // 4 hours
+export const revalidate = 14400; // 4 hours
 
 export const metadata = {
     title: 'Awesome NEAR | NEARCatalog',
