@@ -2,7 +2,8 @@ import { MetadataRoute } from "next";
 import { ProjectRecord } from "@/lib/types";
 import { fetchAllProjects } from "@/lib/near-catalog";
 
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
+export const revalidate = 3600*4; // 4 hours
 
 const BASE_URL = process.env.BASE_URL;
 
